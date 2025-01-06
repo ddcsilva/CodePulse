@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePulse.API", "CodePulse.API\CodePulse.API.csproj", "{7652F564-E951-4DE2-ABBB-B200166A9945}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePulse.Domain", "CodePulse.Domain\CodePulse.Domain.csproj", "{1EA0E1C0-F7FE-4E5E-B6AD-7473AE99CB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePulse.Infrastructure", "CodePulse.Infrastructure\CodePulse.Infrastructure.csproj", "{A152C225-5285-479B-81AB-5CFF65078E39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1EA0E1C0-F7FE-4E5E-B6AD-7473AE99CB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA0E1C0-F7FE-4E5E-B6AD-7473AE99CB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA0E1C0-F7FE-4E5E-B6AD-7473AE99CB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A152C225-5285-479B-81AB-5CFF65078E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A152C225-5285-479B-81AB-5CFF65078E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A152C225-5285-479B-81AB-5CFF65078E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A152C225-5285-479B-81AB-5CFF65078E39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
