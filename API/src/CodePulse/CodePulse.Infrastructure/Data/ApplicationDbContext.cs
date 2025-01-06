@@ -12,8 +12,8 @@ public class ApplicationDbContext : DbContext
     {
     }
 
-    public DbSet<Postagem> Postagens { get; set; }
-    public DbSet<Categoria> Categorias { get; set; }
+    public DbSet<Postagem> Postagens { get; set; } = default!;
+    public DbSet<Categoria> Categorias { get; set; } = default!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
